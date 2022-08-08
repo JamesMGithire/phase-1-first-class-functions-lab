@@ -5,8 +5,8 @@ const returnLastTwoDrivers = (arrayD)=>[arrayD[parseInt(arrayD.length) - 2], arr
 
 let selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers];
 
-function createFareMultiplier(fare,fn=""){
-    return (fn=(fare) => 4 * fare + fare);
+function createFareMultiplier(fare){
+    return ((fare) => 4 * fare + fare);
 }
 
 const fareDoubler = fare => fare * 2;
