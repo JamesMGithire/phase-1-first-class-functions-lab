@@ -1,7 +1,7 @@
 // Code your solution in this file!
 const returnFirstTwoDrivers = (arrayD)=>[arrayD[0], arrayD[1]];
 
-const returnLastTwoDrivers = (arrayD)=>[arrayD[parseInt(arrayD.length) - 2], arrayD[parseInt(arrayD.length)-1]];
+const returnLastTwoDrivers = (arrayD)=>[arrayD[(arrayD.length) - 2], arrayD[(arrayD.length)-1]];
 
 let selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers];
 
